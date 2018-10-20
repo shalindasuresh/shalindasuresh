@@ -17,7 +17,13 @@ html {
 }
 
 body{
-    background: #191919;
+    background:url('/img/background.jpg') red;
+}
+
+.main-container{
+
+    background: #101010; 
+    opacity: 0.8;
 }
 
 
@@ -48,12 +54,13 @@ body{
     border: 5px solid #D8E2DC;
     float: left;
     transition: all 0.5s ease;
+    background: rgba(0, 123, 255, 0.58)
   }
   
   /* Style the icons by setting its color and margin-top value to 20px 
   to align it properly */
   .wrapper ul li .fa {
-    color: #D8E2DC;
+    color: #d8ff00;
     margin-top: 20px;
     transition: all 0.5s ease;
   }
@@ -62,13 +69,13 @@ body{
     to icons for glowing effect and use transition property for smooth transition effect. */
   /*facebook*/
   .wrapper ul li:hover.facebook {
-    border: 5px solid #3b5998;
+    border: 5px solid #3e00e9;
     box-shadow: 0 0 15px #3b5998;
     transition: all 0.5s ease;
   }
   
   .wrapper ul li:hover .fa-facebook {
-    color: #3b5998;
+    color: #ffffff;
     text-shadow: 0 0 15px #3b5998;
     transition: all 0.5s ease;
   }
@@ -87,14 +94,14 @@ body{
   }
   
   /* instagram */
-  .wrapper ul li:hover.instagram {
+  .wrapper ul li:hover.linkedin {
     border: 5px solid #bc2a8d;
     box-shadow: 0 0 15px #bc2a8d;
     transition: all 0.5s ease;
   }
   
-  .wrapper ul li:hover .fa-instagram {
-    color: #bc2a8d;
+  .wrapper ul li:hover .fa-linkedin {
+    color: #ffffff;
     text-shadow: 0 0 15px #bc2a8d;
     transition: all 0.5s ease;
   }
@@ -113,14 +120,14 @@ body{
   }
   
   /* whatsapp */
-  .wrapper ul li:hover.whatsapp {
+  .wrapper ul li:hover.github {
     border: 5px solid #4dc247;
     box-shadow: 0 0 15px #4dc247;
     transition: all 0.5s ease;
   }
   
-  .wrapper ul li:hover .fa-whatsapp {
-    color: #4dc247;
+  .wrapper ul li:hover .fa-github-alt {
+    color: #ffffff;
     text-shadow: 0 0 15px #4dc247;
     transition: all 0.5s ease;
   }
